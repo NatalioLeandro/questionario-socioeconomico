@@ -1,0 +1,37 @@
+name: feedback
+description: "Aplicativo para realização de pesquisa de satisfação na 1ª Feira da Agricultura Familiar do Sul do Piauí e 1º Encontro de Agroecologia do Sul do Piauí."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  google_fonts: ^6.2.1
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  dartz: ^0.10.1
+  get_it: ^7.7.0
+  hasura_connect:
+  flutter_svg: ^0.22.0
+  shared_preferences: ^2.2.3
+  connectivity: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+
+flutter:
+  assets:
+    - assets/images/image1.svg
+
+  uses-material-design: true
